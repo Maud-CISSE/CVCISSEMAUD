@@ -8,7 +8,7 @@ body
     display: flex;
     flex-direction: row;
     overflow-x: hidden;
-    width: 900px;
+    width: 1200px;
 }
 
 #informations{
@@ -24,21 +24,22 @@ body
     color: #FF9800;
 }
 
+#informatique div:nth-child(2) article p
+{
+	text-align: center;
+} 
 
 .infos{
 	text-align: center;;
-	height: 10%;
+	height: 15%;
 }
 
 .infos img{
-	width: 100%;
+	width: 90%;
 	height: 80%;
     border-radius: 48%;
     transform: rotate(90deg);
-    margin-top: 40px;
-}
-
-#contact{
+    margin-top: 20px;
 }
 
 #contact div{
@@ -64,6 +65,11 @@ body
     width: 80%;
     text-align: justify;
     margin: auto;
+}
+
+.articleInfor{
+	width: 100%;
+	text-align: center;
 }
 
 .hobbies figure{
@@ -101,6 +107,10 @@ body
     font-style: italic;
 }
 
+#expAndTrain header p{
+	font-size: 17px;
+}
+
 .myTitle{
 	    margin-left: 3%;
     border-bottom: 2px solid #f0972a;
@@ -125,15 +135,23 @@ body
 }
 
 .articleFormation div:nth-child(1){
-	width: 30%;
+	width: 20%;
 }
 
 .articleFormation div:nth-child(2){
-	width: 70%;
+	width: 80%;
 }
 
 .articleFormation div:nth-child(2) h2{
 	font-size: 17px;
+}
+
+.articleFormation div:nth-child(2) ul li{
+	font-size: 14px;
+}
+
+.articleFormation div:nth-child(1) ul li{
+	font-size: 14px;
 }
 
 .articleExp{
@@ -163,11 +181,6 @@ body
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-}
-
-.articleInfor{
-	width: 50%;
-	text-align: center;
 }
 
 ul
